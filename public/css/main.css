@@ -1,0 +1,8 @@
+body {
+	margin: 0px;
+	background: #efefef;
+	color: #333;
+	width: 100%;
+}
+
+@media (min-width: 960px) {}
