@@ -1,6 +1,8 @@
+/* Page */
+
 body {
 	margin: 0px;
-	background: #efefef;
+	background: #aaa;
 	color: #333;
 	width: 100%;
 }
@@ -20,11 +22,13 @@ body {
 	overflow: auto;
 }
 
+/* Header */
+
 header {
 	max-width: 1000px;
 	overflow: auto;
-	padding-bottom: 10px;
-	border-bottom: 3px solid #e6e6e6;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #aaa;
 	margin: 1em 0 0 0;
 	position: relative;
 }
@@ -66,16 +70,63 @@ header {
 	font-family: 'Arvo', serif;
 }
 
+/* Navigation */
+
+.nav-list {
+    border: 1px solid #aaa;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+	background-image: none;
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav-list a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	font-family: serif;
+	color: #333;
+	font-style: italic;
+}
+/* Hero */
+
 .hero {
 	text-align: center;
 	margin: 1em 0 0 0;
 }
 
+.headline-intro {
+	font-family: serif;
+	font-style: italic;
+	padding: 1em 0 0;
+	color: #aaa;
+}
+
 .headline {
 	font-family: "Libre Baskerville", serif;
 	font-style: italic;
-	letter-spacing: .08em;
-	padding: 1em 0;
+	letter-spacing: .02em;
 }
 
-@media (min-width: 960px) {}
+/* Sections */
+
+section {
+	border-bottom: 1px solid #aaa;
+}
+
+
+
+@media (min-width: 960px) {
+	.nav-list li {
+		display: inline;
+		width: auto;
+	}
+}
