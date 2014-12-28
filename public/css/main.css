@@ -5,4 +5,43 @@ body {
 	width: 100%;
 }
 
+#pageWrapper {
+	margin: 12px;
+	background: #fff;
+	padding: 0 40px;
+	min-height: 800px;
+	overflow: auto;
+}
+
+#wrapper {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+header {
+	max-width: 1000px;
+	overflow: auto;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #e6e6e6;
+	margin: 0px;
+	position: relative;
+}
+
+.stationary {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.stationary p {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	width: 100px;
+	height: auto;
+}
+
 @media (min-width: 960px) {}
