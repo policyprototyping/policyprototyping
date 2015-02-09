@@ -29,11 +29,12 @@ header {
 
 .stationary {
   display: inline-block;
-  padding: 20px 0; }
+  padding: 20px 0;
+  text-align: center; }
 
 .identity {
   width: auto;
-  display: inline-block; }
+  display: block; }
 
 .logo {
   width: 80px;
@@ -46,8 +47,8 @@ header {
   font-weight: 700;
   font-size: 18px; }
 
-.title-block {
-  display: inline-block;
+.titleBlock {
+  display: block;
   vertical-align: top;
   margin: 0 0 0 1em; }
 
@@ -104,4 +105,13 @@ section {
 @media (min-width: 960px) {
   .nav-list li {
     display: inline;
-    width: auto; } }
+    width: auto; }
+
+  .stationary {
+    text-align: none; }
+
+  .identity {
+    display: inline-block; }
+
+  .titleBlock {
+    display: inline-block; } }

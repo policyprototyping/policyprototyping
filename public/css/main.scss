@@ -40,11 +40,12 @@ header {
 .stationary {
 	display: inline-block;
 	padding: 20px 0;
+	text-align: center;
 }
 
 .identity {
 	width: auto;
-	display: inline-block;
+	display: block;
 }
 
 .logo {
@@ -60,8 +61,8 @@ header {
 	font-size: 18px;
 }
 
-.title-block {
-	display: inline-block;
+.titleBlock {
+	display: block;
 	vertical-align: top;
 	margin: 0 0 0 1em;
 }
@@ -132,5 +133,14 @@ section {
 	.nav-list li {
 		display: inline;
 		width: auto;
+	}
+	.stationary {
+		text-align: none;
+	}
+	.identity {
+		display: inline-block;
+	}
+	.titleBlock {
+		display: inline-block;
 	}
 }
