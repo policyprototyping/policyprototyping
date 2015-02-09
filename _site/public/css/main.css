@@ -122,6 +122,18 @@ header {
   padding: 0 0 2em 0;
   border-bottom: 1px solid #aaa; }
 
+/* Tables */
+table {
+  border: 1px solid #aaa;
+  margin: 2em 0; }
+  table th {
+    background-color: #aaa;
+    color: black; }
+  table tr {
+    border: 1px solid #aaa; }
+  table td {
+    border: 1px solid #aaa; }
+
 @media (min-width: 960px) {
   .nav-list li {
     display: inline;

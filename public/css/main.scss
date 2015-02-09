@@ -151,6 +151,23 @@ header {
 	border-bottom: 1px solid #aaa;
 }
 
+/* Tables */
+
+table {
+	border: 1px solid #aaa;
+	margin: 2em 0;
+	th {
+		background-color: #aaa;
+		color: black;
+	}
+	tr {
+		border: 1px solid #aaa;
+	}
+	td {
+		border: 1px solid #aaa;
+	}
+}
+
 
 
 @media (min-width: 960px) {
