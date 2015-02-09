@@ -4,16 +4,23 @@
 	    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
 	    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	    <meta charset="utf-8">
+	    <!-- B O O T S T R A P -->
+	    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 	    <!-- C U S T O M   S T Y L E S -->
 	    <link rel="stylesheet" href="{{site.baseurl}}/public/css/main.css" />
 	    <!-- F O N T S -->
 	    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Lora:400,700,400italic,700italic|Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+		<!-- cameCase = custom styles, otherwise its Bootstrap -->
 		<div id="pageWrapper">
 			<div id="wrapper">
-				<main>
-					{{ content }}
+				<main class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-md-10 col-md-offset-1">
+						{{ content }}
+						</div>
+					</div>
 				</main>
 			</div>
 		</div>
