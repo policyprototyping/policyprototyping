@@ -20,10 +20,12 @@ body {
 header {
   max-width: 1000px;
   overflow: auto;
-  padding-bottom: 2px;
-  border-bottom: 1px solid #aaa;
   margin: 1em 0 0 0;
   position: relative; }
+
+.headerBorder {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 2px; }
 
 .stationary {
   display: inline-block;
@@ -92,7 +94,8 @@ header {
 .headline {
   font-family: "Libre Baskerville", serif;
   font-style: italic;
-  letter-spacing: .02em; }
+  letter-spacing: .02em;
+  line-height: 1.6em; }
 
 /* Sections */
 section {
