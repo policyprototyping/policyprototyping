@@ -4,6 +4,14 @@ body {
   color: #333;
   width: 100%; }
 
+p {
+  font-size: 16px;
+  line-height: 1.6em; }
+
+ul li {
+  font-size: 16px;
+  line-height: 1.6em; }
+
 #pageWrapper {
   margin: 12px;
   background: #fff;
@@ -26,6 +34,11 @@ header {
 .headerBorder {
   border-bottom: 1px solid #aaa;
   padding-bottom: 2px; }
+
+/* Commenting this out for now. Implement the border as a top-border on the hero unit so when that we don't have one, we don't show the line.*/
+.identitySection {
+  width: 100%;
+  /*	border-bottom: 1px solid #aaa;*/ }
 
 .stationary {
   display: inline-block;
@@ -86,6 +99,11 @@ header {
   text-align: center;
   margin: 1em 0 4em 0; }
 
+.heroBorder {
+  width: 100%;
+  padding-top: 2em;
+  border-top: 1px solid #aaa; }
+
 .headlineIntro {
   font-family: serif;
   font-style: italic;
@@ -99,7 +117,9 @@ header {
   line-height: 1.6em; }
 
 /* Sections */
-section {
+.bodySection {
+  margin: 0 0 6em 0;
+  padding: 0 0 2em 0;
   border-bottom: 1px solid #aaa; }
 
 @media (min-width: 960px) {
@@ -108,7 +128,7 @@ section {
     width: auto; }
 
   .stationary {
-    text-align: none; }
+    text-align: left; }
 
   .identity {
     display: inline-block; }
